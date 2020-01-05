@@ -1,0 +1,91 @@
+#lin{
+    color: gray;
+}
+
+.im{
+    width: 30%;
+    margin-right: 14px;
+}
+.iml{
+    width: 40%;
+    size: 20%;
+    margin-left: 14px;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.jumbotron:nth-of-type(2){
+    background-image: url(https://images.unsplash.com/photo-1526041341069-53c6dfb8b61a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    background-position: 2vh;
+    color: white;
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url(https://cdn2.hubspot.net/hubfs/548247/Tomorrow%20People/Landing%20Page/Template%20Build/fa-regular-400.svg) format("svg");
+  }
+  
+  .formLink {
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 88px;
+    transition: all 0.25s ease;
+    width: 250px;
+    background: linear-gradient(to right, #943e69, #241110);
+    padding: 24px 1.2em;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'GeomanistRegular', sans-serif;
+    cursor: pointer;
+  }
+
+  .jumbotron:nth-of-type(1){
+      background-image: url(https://images.unsplash.com/photo-1571488522587-59e6a9ee67a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+        background-size: 112vh;
+    }
+
+  h1{
+      color: white;
+  }
+  #par{
+    color: white;
+    font-size: 100%;
+  }
+  #par1{
+    color: white;
+    font-size: 85%;
+}
+
+.wheels:hover{
+    zoom: 1.5;
+}

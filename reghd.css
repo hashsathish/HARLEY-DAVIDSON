@@ -1,0 +1,21 @@
+body{
+	background-image: url(https://images.unsplash.com/photo-1519220354349-02724a4d475c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-size: 1540px;
+}
+
+h2{
+	background: orange;
+}
+
+label{
+	color: white;
+}
+
+h2{
+	background-image: url(https://mylifewithgaming.files.wordpress.com/2013/12/cropped-collage1-cropped.jpg);
+	color: white;
+}
+
+#reg{
+    color: white;
+}
